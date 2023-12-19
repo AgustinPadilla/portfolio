@@ -10,7 +10,7 @@ export const Header = () => {
       <nav>
         <ul className='flex w-auto items-center'>
           <li>
-            <NavItem>
+            <NavItem href='#work'>
               Work
             </NavItem>
           </li>
