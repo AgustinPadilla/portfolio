@@ -5,6 +5,12 @@ import { SunIcon } from './components/icons/SunIcon'
 import { Container } from './components/Container'
 import { PresentationSection } from './components/PresentationSection'
 import { WorkSection } from './components/WorkSection'
+import { ReactIcon } from './components/icons/ReactIcon'
+import { TailwindIcon } from './components/icons/TailwindIcon'
+import { JavascriptIcon } from './components/icons/JavascriptIcon'
+import { CssIcon } from './components/icons/CssIcon'
+import { HtmlIcon } from './components/icons/HtmlIcon'
+import { NodeIcon } from './components/icons/NodeIcon'
 
 function App () {
   const [darkTheme, setDarkTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches)
@@ -20,6 +26,19 @@ function App () {
           <PresentationSection />
         </Container>
         <WorkSection />
+        <Container>
+          <section id='skills'>
+            <h2 className='sectionTitle'>Skills</h2>
+            <div className='h-64 flex gap-10'>
+              <ReactIcon />
+              <TailwindIcon />
+              <JavascriptIcon />
+              <NodeIcon />
+              <CssIcon />
+              <HtmlIcon />
+            </div>
+          </section>
+        </Container>
       </section>
     </div>
   )

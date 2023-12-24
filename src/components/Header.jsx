@@ -20,7 +20,7 @@ export const Header = () => {
             </NavItem>
           </li>
           <li>
-            <NavItem>
+            <NavItem href='#skills'>
               Skills
             </NavItem>
           </li>
