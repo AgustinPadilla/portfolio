@@ -25,7 +25,7 @@ export const PresentationSection = () => {
         </a>
       </div>
       <figure>
-        <img src='Foto.png' className='w-64 md:w-96' alt='foto de frente Agustin Padilla' />
+        <img src='Foto.webp' className='w-64 md:w-96' alt='foto de frente Agustin Padilla' />
       </figure>
     </section>
   )
