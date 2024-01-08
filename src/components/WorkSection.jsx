@@ -15,7 +15,7 @@ export const WorkSection = () => {
           Work
         </h2>
         <div className='flex flex-col w-full min-h-[500px]'>
-          <Project title='BookUpp!' img='bookupp.png' url='https://bookupp.netlify.app/' description='Find any book that you want and save it on a readlist'>
+          <Project title='BookUpp!' img='bookupp.png' url='https://bookupp.netlify.app/' github='https://github.com/AgustinPadilla/book-upp' description='Find any book that you want and save it on a readlist'>
             <li>
               <div href='' className='flex flex-col items-center'>
                 <ReactIcon w='40px' h='40px' />
@@ -35,7 +35,7 @@ export const WorkSection = () => {
               </div>
             </li>
           </Project>
-          <Project title='Uniformas' img='uniformas.png' reverse url='https://uniformasuy.netlify.app/' description='landing page for a company dedicated to the manufacturing of school uniforms'>
+          <Project title='Uniformas' img='uniformas.png' reverse url='https://uniformasuy.netlify.app/' github='https://github.com/AgustinPadilla/uniformas-landingpage' description='landing page for a company dedicated to the manufacturing of school uniforms'>
             <li>
               <div href='' className='flex flex-col items-center'>
                 <ReactIcon w='40px' h='40px' />
@@ -55,7 +55,7 @@ export const WorkSection = () => {
               </div>
             </li>
           </Project>
-          <Project title='Spot 17' img='spot17.png' url='https://spot17.netlify.app/' description='landing page for a streetwear online shop'>
+          <Project title='Spot 17' img='spot17.png' url='https://spot17.netlify.app/' github='https://github.com/AgustinPadilla/proyecto-diw' description='landing page for a streetwear online shop'>
             <li>
               <div href='' className='flex flex-col items-center'>
                 <CssIcon w='40px' h='40px' />

@@ -16,18 +16,18 @@ export const ContactForm = () => {
     })
   }
   return (
-    <form className='font-sans font-semibold text-xl w-[600px] flex flex-col gap-6' ref={form} onSubmit={sendEmail}>
+    <form className='font-sans font-semibold text-xl w-full max-w-[600px] flex flex-col gap-6' ref={form} onSubmit={sendEmail}>
       <div className='flex flex-col'>
         <label>Name</label>
-        <input className='mt-2 font-normal rounded h-10 text-gray-900 p-3 placeholder:text-gray-500' type='text' name='from_name' placeholder='Full name' />
+        <input className='mt-2 border-gray-600 border-2 dark:border-0 font-normal rounded h-10 text-gray-900 p-3 placeholder:text-gray-500' type='text' name='from_name' placeholder='Full name' required />
       </div>
       <div className='flex flex-col'>
         <label>Email</label>
-        <input className='mt-2 font-normal rounded h-10 text-gray-900 p-3 placeholder:text-gray-500' type='email' name='reply_to' placeholder='name@email.com' />
+        <input className='mt-2 border-gray-600 border-2 dark:border-0 font-normal rounded h-10 text-gray-900 p-3 placeholder:text-gray-500' type='email' name='reply_to' placeholder='name@email.com' required />
       </div>
       <div className='flex flex-col'>
         <label>Message</label>
-        <textarea className='mt-2 font-normal rounded h-32 text-gray-900 p-3 placeholder:text-gray-500' name='message' placeholder='Leave a message...' />
+        <textarea className='mt-2 border-gray-600 border-2 dark:border-0 font-normal rounded h-32 text-gray-900 p-3 placeholder:text-gray-500' name='message' placeholder='Leave a message...' required />
       </div>
       <input type='submit' value='Send' className='font-sans border-2 border-gray-900 py-2 px-8 active:bg-gray-900 active:text-white dark:border-gray-100 dark:active:bg-gray-100 dark:active:text-gray-900 cursor-pointer' />
       {

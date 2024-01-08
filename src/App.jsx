@@ -26,7 +26,7 @@ function App () {
         <Container>
           <SkillsSection />
           <ResumeSection />
-          <section id='contact' className='mt-16'>
+          <section id='contact' className='mt-16 mb-16'>
             <h2 className='sectionTitle'>Contact</h2>
             <div className='mt-16 flex flex-col items-center w-full'>
               <ContactForm />

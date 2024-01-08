@@ -11,7 +11,7 @@ export const SkillsSection = () => {
   return (
     <section id='skills'>
       <h2 className='sectionTitle'>Skills</h2>
-      <div className='font-semibold flex-wrap pt-10 pb-10 flex gap-10 justify-center'>
+      <div className='font-semibold flex-wrap pt-10 pb-10 flex gap-10 justify-center '>
         <div className='h-full flex flex-col items-center'>
           <ReactIcon h='75px' />
           <h2>React</h2>

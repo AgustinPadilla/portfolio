@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Container = (props) => {
   return (
-    <div className='sm:w-full px-8 lg:w-[900px] h-full' {...props}>
+    <div className='w-full flex flex-col px-8 lg:w-[900px] h-full min-h-screen' {...props}>
       {props.children}
     </div>
   )
