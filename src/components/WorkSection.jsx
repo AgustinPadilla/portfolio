@@ -9,7 +9,7 @@ import { HtmlIcon } from './icons/HtmlIcon'
 
 export const WorkSection = () => {
   return (
-    <section id='work' className='w-full bg-white dark:text-gray-900 dark:bg-gray-50 flex flex-col items-center h-full shadow-xl dark:shadow-gray-950'>
+    <section id='work' className='w-full text-gray-50 bg-gradient-to-r from-gray-950 to-gray-900 dark:text-gray-900  dark:from-gray-50 dark:to-gray-50 flex flex-col items-center h-full shadow-xl dark:shadow-gray-950'>
       <Container>
         <h2 className='sectionTitle'>
           Work

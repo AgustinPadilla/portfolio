@@ -20,7 +20,7 @@ export const PresentationSection = () => {
             <span className='text-lg'>Github</span>
           </a>
         </div>
-        <a href='#' className='font-sans border-2 border-gray-900 py-2 px-8 active:bg-gray-900 active:text-white dark:border-gray-100 dark:active:bg-gray-100 dark:active:text-gray-900'>
+        <a href='#resume' className='font-sans border-2 border-gray-900 py-2 px-8 active:bg-gray-900 active:text-white dark:border-gray-100 dark:active:bg-gray-100 dark:active:text-gray-900'>
           Learn more
         </a>
       </div>

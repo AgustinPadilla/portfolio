@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavItem } from './NavItem'
+import { APIcon } from './icons/APIcon'
 
 export const Header = () => {
   return (
     <header className='flex justify-around lg:justify-between h-32 items-center'>
       <figure>
-        <h1 className='text-6xl font-bold font-logo'>AP.</h1>
+        <APIcon w='80px' />
       </figure>
       <nav>
         <ul className='flex w-auto items-center'>
@@ -15,18 +16,18 @@ export const Header = () => {
             </NavItem>
           </li>
           <li>
-            <NavItem>
-              Resume
-            </NavItem>
-          </li>
-          <li>
             <NavItem href='#skills'>
               Skills
             </NavItem>
           </li>
           <li>
-            <NavItem>
-              Social
+            <NavItem href='#aboutMe'>
+              About me
+            </NavItem>
+          </li>
+          <li>
+            <NavItem href='#contact'>
+              Contact
             </NavItem>
           </li>
 
